@@ -17,6 +17,7 @@ function Layout({ pageContext, children }) {
   return (
     <React.StrictMode>
       <PageContextProvider pageContext={pageContext}>
+        <Header />
         <Frame>
           <Sidebar>
             <Logo />
@@ -26,6 +27,7 @@ function Layout({ pageContext, children }) {
           </Sidebar>
           <Content>{children}</Content>
         </Frame>
+        <Footer />
       </PageContextProvider>
     </React.StrictMode>
   )
@@ -36,13 +38,7 @@ Frame.propTypes = {
 }
 function Frame({ children }) {
   return (
-    <div
-      style={{
-        display: 'flex',
-        maxWidth: 900,
-        margin: 'auto'
-      }}
-    >
+    <div className="max-w-10xl mx-auto flex">
       {children}
     </div>
   )
@@ -53,17 +49,7 @@ Sidebar.propTypes = {
 }
 function Sidebar({ children }) {
   return (
-    <div
-      id="sidebar"
-      style={{
-        padding: 20,
-        flexShrink: 0,
-        display: 'flex',
-        flexDirection: 'column',
-        lineHeight: '1.8em',
-        borderRight: '2px solid #eee'
-      }}
-    >
+    <div className="p-5 flex-shrink-0 flex flex-col leading-7 border-r-2 border-gray-200">
       {children}
     </div>
   )
@@ -101,5 +87,37 @@ function Logo() {
         <img src={logoUrl} height={64} width={64} alt="logo" />
       </a>
     </div>
+  )
+}
+
+function Header() {
+  return (
+    <header className="bg-blue-600 text-white p-4">
+      <div className="max-w-5xl mx-auto flex justify-between items-center">
+        <div className="flex items-center space-x-4">
+          <img src={logoUrl} height={40} width={40} alt="logo" />
+          <nav className="space-x-4">
+            <Link href="/" className="hover:underline">Home</Link>
+            <Link href="/about" className="hover:underline">About</Link>
+            <Link href="/star-wars" className="hover:underline">Data Fetching</Link>
+          </nav>
+        </div>
+      </div>
+    </header>
+  )
+}
+
+function Footer() {
+  return (
+    <footer className="bg-gray-800 text-white p-4 mt-12">
+      <div className="max-w-5xl mx-auto flex justify-between items-center">
+        <p>&copy; 2024 Your Company</p>
+        <nav className="space-x-4">
+          <Link href="/" className="hover:underline">Home</Link>
+          <Link href="/about" className="hover:underline">About</Link>
+          <Link href="/contact" className="hover:underline">Contact</Link>
+        </nav>
+      </div>
+    </footer>
   )
 }
