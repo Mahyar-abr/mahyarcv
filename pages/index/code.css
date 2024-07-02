@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  /* Main Styles */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 5px;
+  }
+  
+  h3 {
+    margin-top: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    header, main, footer {
+      padding: 10px;
+    }
+    
+    h1 {
+      font-size: 28px;
+    }
+    
+    h2 {
+      font-size: 24px;
+    }
+    
+    h3 {
+      font-size: 20px;
+    }
+    
+    p, ul {
+      font-size: 16px;
+    }
+  }
+  
+/* Skills Styles */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .skills span {
+    background-color: #bfdbfe; /* bg-blue-200 in Tailwind CSS */
+    color: #1e3a8a; /* text-blue-800 in Tailwind CSS */
+    padding: 4px 12px; /* px-3 py-1 in Tailwind CSS */
+    border-radius: 9999px; /* rounded-full in Tailwind CSS */
+    font-size: 0.875rem; /* text-sm in Tailwind CSS */
+    font-weight: 600;
+  }
+  

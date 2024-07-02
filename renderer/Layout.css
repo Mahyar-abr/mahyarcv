@@ -5,3 +5,68 @@
 #sidebar a.is-active {
   background-color: #eee;
 }
+
+ /* Footer Styles */
+ footer {
+  background-color: #1a73e8;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Header Styles */
+header {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 16px;
+}
+
+header .max-w-5xl {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 40px;
+  width: 40px;
+}
+
+header nav {
+  display: flex;
+  gap: 16px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+header a {
+  background-color: white;
+  color: #1d4ed8;
+  padding: 8px 16px;
+  border-radius: 9999px; /* rounded-full in Tailwind CSS */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+header a:hover {
+  background-color: #e0f2fe;
+  transform: translateY(-4px) scale(1.05);
+}
+
+header a:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}

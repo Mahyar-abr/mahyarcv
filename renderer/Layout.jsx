@@ -3,9 +3,8 @@ export { Layout }
 import React from 'react'
 import PropTypes from 'prop-types'
 import { childrenPropType } from './PropTypeValues'
-import logoUrl from './logo.svg'
+import logoUrl from './logo.png'
 import { PageContextProvider } from './usePageContext'
-import { Link } from './Link'
 import './css/index.css'
 import './Layout.css'
 
@@ -19,12 +18,12 @@ function Layout({ pageContext, children }) {
       <PageContextProvider pageContext={pageContext}>
         <Header />
         <Frame>
-          <Sidebar>
+          {/* <Sidebar>
             <Logo />
             <Link href="/">Welcome</Link>
             <Link href="/about">About</Link>
             <Link href="/star-wars">Data Fetching</Link>
-          </Sidebar>
+          </Sidebar> */}
           <Content>{children}</Content>
         </Frame>
         <Footer />
@@ -75,35 +74,24 @@ function Content({ children }) {
   )
 }
 
-function Logo() {
-  return (
-    <div
-      style={{
-        marginTop: 20,
-        marginBottom: 10
-      }}
-    >
-      <a href="/">
-        <img src={logoUrl} height={64} width={64} alt="logo" />
-      </a>
-    </div>
-  )
-}
-
 function Header() {
   return (
-    <header className="bg-blue-600 text-white p-4">
-      <div className="max-w-5xl mx-auto flex justify-between items-center">
-        <div className="flex items-center space-x-4">
-          <img src={logoUrl} height={40} width={40} alt="logo" />
-          <nav className="space-x-4">
-            <Link href="/" className="hover:underline">Home</Link>
-            <Link href="/about" className="hover:underline">About</Link>
-            <Link href="/star-wars" className="hover:underline">Data Fetching</Link>
-          </nav>
-        </div>
+  <header className="bg-blue-600 text-white p-4">
+    <div className="max-w-5xl mx-auto flex justify-between items-center">
+      <div className="flex items-center space-x-4">
+        <img src={logoUrl} height={40} width={40} alt="logo" className="h-10 w-10" />
+        <nav className="space-x-4">
+          <span className="text-white">Home</span>
+        </nav>
       </div>
-    </header>
+      <a 
+      href="https://t.me/yourTelegramUsername" 
+      className="bg-white text-blue-600 px-4 py-2 rounded-full shadow-lg hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 transition transform hover:-translate-y-1 hover:scale-105"
+      >
+      Contact
+      </a>
+    </div>
+  </header>
   )
 }
 
@@ -112,11 +100,6 @@ function Footer() {
     <footer className="bg-gray-800 text-white p-4 mt-12">
       <div className="max-w-5xl mx-auto flex justify-between items-center">
         <p>&copy; 2024 Your Company</p>
-        <nav className="space-x-4">
-          <Link href="/" className="hover:underline">Home</Link>
-          <Link href="/about" className="hover:underline">About</Link>
-          <Link href="/contact" className="hover:underline">Contact</Link>
-        </nav>
       </div>
     </footer>
   )
