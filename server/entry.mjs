@@ -87,8 +87,8 @@ const pageFiles = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
     "file": "assets/static/onRenderClient.CqggZvZa.css",
     "src": "_chunk-!~{004}~.js"
   },
-  "_chunk-C-DHtSCy.js": {
-    "file": "assets/chunks/chunk-C-DHtSCy.js",
+  "_chunk-CMz9aZdi.js": {
+    "file": "assets/chunks/chunk-CMz9aZdi.js",
     "name": "_onRenderClient",
     "css": [
       "assets/static/onRenderClient.CqggZvZa.css"
@@ -98,7 +98,7 @@ const pageFiles = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
     ]
   },
   "node_modules/vike/dist/esm/client/client-routing-runtime/entry.js": {
-    "file": "assets/entries/entry-client-routing.CWlRtCe3.js",
+    "file": "assets/entries/entry-client-routing.B1N8c2CQ.js",
     "name": "entries/entry-client-routing",
     "src": "node_modules/vike/dist/esm/client/client-routing-runtime/entry.js",
     "isEntry": true,
@@ -112,23 +112,23 @@ const pageFiles = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
     "src": "renderer/logo.png"
   },
   "virtual:vike:pageConfigValuesAll:client:/pages/_error": {
-    "file": "assets/entries/pages_error.Cce4lCWi.js",
+    "file": "assets/entries/pages_error.BjCWXwWV.js",
     "name": "entries/pages/_error",
     "src": "virtual:vike:pageConfigValuesAll:client:/pages/_error",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-C-DHtSCy.js"
+      "_chunk-CMz9aZdi.js"
     ]
   },
   "virtual:vike:pageConfigValuesAll:client:/pages/index": {
-    "file": "assets/entries/pages_index.CbPQCu05.js",
+    "file": "assets/entries/pages_index.ZE-FBSSa.js",
     "name": "entries/pages/index",
     "src": "virtual:vike:pageConfigValuesAll:client:/pages/index",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-C-DHtSCy.js"
+      "_chunk-CMz9aZdi.js"
     ],
     "css": [
       "assets/static/index.DkJ8cQaR.css"
@@ -138,8 +138,8 @@ const pageFiles = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
   const pluginManifest = {
     "version": "0.4.177",
     "usesClientRouter": false,
-    "baseServer": "/",
-    "baseAssets": "/",
+    "baseServer": "/mahyarcv/",
+    "baseAssets": "/mahyarcv/",
     "includeAssetsImportedByServer": true,
     "redirects": {},
     "trailingSlash": false,

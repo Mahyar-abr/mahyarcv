@@ -4,7 +4,7 @@ import React, { useContext } from "react";
 import PropTypes from "prop-types";
 import { escapeInject, dangerouslySkipEscape } from "vike/server";
 let childrenPropType = PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]).isRequired;
-const logoUrl = "/assets/static/logo.Ck4htcyc.png";
+const logoUrl = "/mahyarcv/assets/static/logo.Ck4htcyc.png";
 const Context = React.createContext(void 0);
 PageContextProvider.propTypes = {
   pageContext: PropTypes.any,
