@@ -1,0 +1,53 @@
+{
+  "_chunk-!~{004}~.js": {
+    "file": "assets/static/onRenderClient.CqggZvZa.css",
+    "src": "_chunk-!~{004}~.js"
+  },
+  "_chunk-C-DHtSCy.js": {
+    "file": "assets/chunks/chunk-C-DHtSCy.js",
+    "name": "_onRenderClient",
+    "css": [
+      "assets/static/onRenderClient.CqggZvZa.css"
+    ],
+    "assets": [
+      "assets/static/logo.Ck4htcyc.png"
+    ]
+  },
+  "node_modules/vike/dist/esm/client/client-routing-runtime/entry.js": {
+    "file": "assets/entries/entry-client-routing.CWlRtCe3.js",
+    "name": "entries/entry-client-routing",
+    "src": "node_modules/vike/dist/esm/client/client-routing-runtime/entry.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "virtual:vike:pageConfigValuesAll:client:/pages/_error",
+      "virtual:vike:pageConfigValuesAll:client:/pages/index"
+    ]
+  },
+  "renderer/logo.png": {
+    "file": "assets/static/logo.Ck4htcyc.png",
+    "src": "renderer/logo.png"
+  },
+  "virtual:vike:pageConfigValuesAll:client:/pages/_error": {
+    "file": "assets/entries/pages_error.Cce4lCWi.js",
+    "name": "entries/pages/_error",
+    "src": "virtual:vike:pageConfigValuesAll:client:/pages/_error",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-C-DHtSCy.js"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/pages/index": {
+    "file": "assets/entries/pages_index.CbPQCu05.js",
+    "name": "entries/pages/index",
+    "src": "virtual:vike:pageConfigValuesAll:client:/pages/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-C-DHtSCy.js"
+    ],
+    "css": [
+      "assets/static/index.DkJ8cQaR.css"
+    ]
+  }
+}
