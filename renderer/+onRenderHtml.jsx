@@ -23,7 +23,7 @@ function onRenderHtml(pageContext) {
 
   // See https://vike.dev/head
   const title = getPageTitle(pageContext)
-  const desc = pageContext.data?.description || pageContext.config.description || 'Demo of using Vike'
+  const desc = pageContext.data?.description || pageContext.config.description || 'MY CV SITE'
 
   const documentHtml = escapeInject`<!DOCTYPE html>
     <html lang="en">
