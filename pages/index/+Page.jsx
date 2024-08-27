@@ -78,8 +78,8 @@ function Page() {
 
           <section className="mb-10">
             <h2 className="text-3xl font-bold border-b-4 border-blue-900 pb-2 mb-4">Contact</h2>
-            <p className="text-lg">Email: <a href="mailto:your.email@example.com" className="text-blue-700">mahyarabr96@gmail.com</a></p>
-            <p className="text-lg">LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" className="text-blue-700">www.linkedin.com/in/mahyar-akbari-8b5a77228</a></p>
+            <p className="text-lg">Email: <a href="mailto:mahyarabr96@gmail.com" className="text-blue-700">mahyarabr96@gmail.com</a></p>
+            <p className="text-lg">LinkedIn: <a href="www.linkedin.com/in/mahyar-akbari-8b5a77228" className="text-blue-700">www.linkedin.com/in/mahyar-akbari-8b5a77228</a></p>
           </section>
         </main>
       </div>
