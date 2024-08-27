@@ -85,7 +85,7 @@ function Header() {
         </nav>
       </div>
       <a 
-      href="https://t.me/yourTelegramUsername" 
+      href="https://t.me/Mahyarrba" 
       className="bg-white text-blue-600 px-4 py-2 rounded-full shadow-lg hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 transition transform hover:-translate-y-1 hover:scale-105"
       >
       Contact
@@ -99,7 +99,7 @@ function Footer() {
   return (
     <footer className="bg-gray-800 text-white p-4 mt-12">
       <div className="max-w-5xl mx-auto flex justify-between items-center">
-        <p>&copy; 2024 Your Company</p>
+        <p>&copy; 2024 Made By Mahyar</p>
       </div>
     </footer>
   )
