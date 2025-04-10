@@ -30,6 +30,19 @@ function Page() {
 
           <section className="mb-10">
             <h2 className="text-3xl font-bold border-b-4 border-blue-900 pb-2 mb-4">Experience</h2>
+
+            <div className="mb-6">
+              <h3 className="text-2xl font-semibold">Gyma.app(StartUp)</h3>
+              <p className="text-gray-700 italic mb-2">2024-06-26 - Current</p>
+              <ul className="list-disc pl-5 text-lg">
+                <li>Django</li>
+                <li>MVC Python Development</li>
+                <li>Skilled in Frontend Development with Tailwind, MaterialUI and NEXT.JS</li>
+                <li>System Messaging and Queue Management with RabbitMQ</li>
+                <li>Successful Implementation of WordPress E-Commerce Solutions</li>
+              </ul>
+            </div>
+
             <div className="mb-6">
               <h3 className="text-2xl font-semibold">HI-TECH</h3>
               <p className="text-gray-700 italic mb-2">2023-10-23 - 2024-07-21</p>
@@ -45,7 +58,7 @@ function Page() {
             </div>
 
             <div className="mb-6">
-              <h3 className="text-2xl font-semibold">IR-TECH</h3>
+              <h3 className="text-2xl font-semibold">Project Based Activities</h3>
               <p className="text-gray-700 italic mb-2">2022-01-26 - 2024-06-26</p>
               <ul className="list-disc pl-5 text-lg">
                 <li>Experienced with System Messaging and Queuing</li>
