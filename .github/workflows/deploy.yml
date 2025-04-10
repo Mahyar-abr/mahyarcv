@@ -35,6 +35,11 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
 
+  permissions:
+    contents: read
+    pages: write
+    id-token: write  # Required for deploy-pages@v4
+
     steps:
       - name: Download artifact
         uses: actions/deploy-pages@v4
