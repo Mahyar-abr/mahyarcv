@@ -330,7 +330,7 @@ function Page() {
                 href="tel:0649241278"
                 className="text-blue-700 hover:underline"
               >
-                06 49 24 12 78
+                EMAIL ME PLEASE!
               </a>
             </p>
 
