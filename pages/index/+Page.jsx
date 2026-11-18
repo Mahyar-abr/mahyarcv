@@ -39,10 +39,6 @@ function Page() {
           <p className="text-lg md:text-xl mt-3">
             Développeur Web | Étudiant en BTS SIO
           </p>
-
-          <p className="mt-2 text-blue-100">
-            Rouen, France
-          </p>
         </div>
       </header>
 
@@ -55,27 +51,22 @@ function Page() {
 
           <div className="space-y-4 text-lg">
             <p>
-              Passionné par l&apos;informatique, je suis arrivé en France avec
-              l&apos;ambition de devenir ingénieur en informatique. Après une
-              première année de licence IEEEA — Informatique, Électronique,
-              Énergie Électrique et Automatique — j&apos;ai choisi de me
-              réorienter vers le lycée privé La Châtaigneraie afin de suivre une
-              formation plus pratique en Services Informatiques aux
-              Organisations, davantage axée sur les compétences
-              professionnelles.
+              Passionné par l&apos;informatique, je souhaite devenir ingénieur
+              en informatique. Actuellement étudiant en BTS SIO option SLAM,
+              je développe mes compétences en conception et développement
+              d&apos;applications web à travers des projets concrets.
             </p>
 
             <p>
-              Depuis mon arrivée en France, j&apos;ai également réussi à
-              décrocher un emploi étudiant, ce qui témoigne de mon sérieux, de
-              ma motivation et de ma capacité d&apos;adaptation.
+              En parallèle de mes études, mon emploi étudiant m&apos;a permis
+              de développer mon sérieux, mon sens de l&apos;organisation et ma
+              capacité d&apos;adaptation.
             </p>
 
             <p>
-              En tant qu&apos;étudiant international maîtrisant trois langues,
-              je suis déterminé à poursuivre mon développement personnel et
-              professionnel, à approfondir mes compétences techniques et à
-              contribuer à des projets innovants.
+              Je souhaite approfondir mes compétences techniques, poursuivre
+              mon développement professionnel et contribuer à des projets
+              innovants.
             </p>
           </div>
         </section>
@@ -92,9 +83,7 @@ function Page() {
                 Développeur Web — Hiwatech
               </h3>
 
-              <p className="text-gray-700 italic">
-                2023 - 2024
-              </p>
+              <p className="text-gray-700 italic">2023 - 2024</p>
             </div>
 
             <p className="text-blue-900 font-semibold mb-3">
@@ -116,13 +105,9 @@ function Page() {
                 Gestion d&apos;environnements serveurs Ubuntu avec Docker.
               </li>
 
-              <li>
-                Intégration de solutions web avec Python et Docker.
-              </li>
+              <li>Intégration de solutions web avec Python et Docker.</li>
 
-              <li>
-                Création de plugins innovants pour des applications web.
-              </li>
+              <li>Création de plugins innovants pour des applications web.</li>
 
               <li>
                 Développement full-stack avec Python, Django, Node.js,
@@ -134,16 +119,14 @@ function Page() {
           <div className="mb-6">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-1 mb-2">
               <h3 className="text-2xl font-semibold">
-                Employé commercial polyvalent — Carrefour
+                Employé commercial polyvalent — Carrefour (job étudiant)
               </h3>
 
-              <p className="text-gray-700 italic">
-                2025
-              </p>
+              <p className="text-gray-700 italic">2025</p>
             </div>
 
             <p className="text-blue-900 font-semibold mb-3">
-              Emploi étudiant — Rouen, France
+              France
             </p>
 
             <ul className="list-disc pl-5 text-lg space-y-2">
@@ -174,12 +157,10 @@ function Page() {
               </h3>
 
               <p className="text-gray-700 mt-1">
-                Lycée privé La Châtaigneraie
+                École La Châtaigneraie
               </p>
 
-              <p className="text-gray-600 italic">
-                2026 — Rouen, France
-              </p>
+              <p className="text-gray-600 italic">2026</p>
             </div>
 
             <div>
@@ -191,13 +172,7 @@ function Page() {
                 Université de Rouen Normandie
               </p>
 
-              <p className="text-gray-600 italic">
-                2025 - 2026 — Rouen, France
-              </p>
-
-              <p className="text-gray-700 mt-2">
-                Informatique, Électronique, Énergie Électrique et Automatique.
-              </p>
+              <p className="text-gray-600 italic">2025 - 2026</p>
             </div>
 
             <div>
@@ -219,9 +194,7 @@ function Page() {
                 Diplôme de fin d&apos;études secondaires
               </h3>
 
-              <p className="text-gray-700 mt-1">
-                Enghelab Eslami
-              </p>
+              <p className="text-gray-700 mt-1">Enghelab Eslami</p>
 
               <p className="text-gray-600 italic">
                 2019 - 2022 — Téhéran, Iran
@@ -256,38 +229,26 @@ function Page() {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
-              <h3 className="text-xl font-semibold text-blue-900">
-                Persan
-              </h3>
+              <h3 className="text-xl font-semibold text-blue-900">Persan</h3>
 
-              <p className="text-gray-700 mt-1">
-                Langue maternelle
-              </p>
+              <p className="text-gray-700 mt-1">Langue maternelle</p>
             </div>
 
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
-              <h3 className="text-xl font-semibold text-blue-900">
-                Français
-              </h3>
+              <h3 className="text-xl font-semibold text-blue-900">Français</h3>
 
-              <p className="text-gray-700 mt-1">
-                Langue étrangère
-              </p>
+              <p className="text-gray-700 mt-1">Langue étrangère</p>
             </div>
 
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
-              <h3 className="text-xl font-semibold text-blue-900">
-                Anglais
-              </h3>
+              <h3 className="text-xl font-semibold text-blue-900">Anglais</h3>
 
-              <p className="text-gray-700 mt-1">
-                Langue étrangère
-              </p>
+              <p className="text-gray-700 mt-1">Langue étrangère</p>
             </div>
           </div>
         </section>
 
-        {/* Centres d’intérêt */}
+        {/* Centres d'intérêt */}
         <section className="mb-10">
           <h2 className="text-3xl font-bold border-b-4 border-blue-900 pb-2 mb-4">
             Centres d&apos;intérêt
@@ -324,27 +285,6 @@ function Page() {
             </p>
 
             <p>
-              <span className="font-semibold">Téléphone : </span>
-
-              <a
-                href="tel:0649241278"
-                className="text-blue-700 hover:underline"
-              >
-                EMAIL ME PLEASE!
-              </a>
-            </p>
-
-            <p>
-              <span className="font-semibold">Ville : </span>
-              Rouen, France
-            </p>
-
-            <p>
-              <span className="font-semibold">Nationalité : </span>
-              Iranienne
-            </p>
-
-            <p>
               <span className="font-semibold">Mobilité : </span>
               Oui
             </p>
@@ -353,9 +293,7 @@ function Page() {
       </main>
 
       <footer className="bg-blue-900 text-white text-center px-6 py-5">
-        <p>
-          © {new Date().getFullYear()} Mahyar Aliakbariabar
-        </p>
+        <p>© {new Date().getFullYear()} Mahyar Aliakbariabar</p>
       </footer>
     </div>
   );
